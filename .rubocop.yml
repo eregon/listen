@@ -13,6 +13,7 @@ AllCops:
     - Gemfile
     - Guardfile
     - Rakefile
+    - vendor
 
 # TODO: put your overrides here:
 Style/StringLiterals:
