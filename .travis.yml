@@ -14,9 +14,11 @@ matrix:
         - LISTEN_TESTS_DEFAULT_LAG=2
     - rvm: jruby
     - rvm: truffleruby
+    - rvm: truffleruby-head
     - rvm: ruby-head
   allow_failures:
     - rvm: truffleruby
+    - rvm: truffleruby-head
     - rvm: jruby
     - rvm: ruby-head
   fast_finish: true
